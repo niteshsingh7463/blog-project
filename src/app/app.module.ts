@@ -12,9 +12,19 @@ import { IndexBlogComponent } from './components/index-blog/index-blog.component
 import { FooterComponent } from './shared/footer/footer.component';
 import { SwitcherComponent } from './shared/switcher/switcher.component';
 import { HeaderComponent } from './shared/header/header.component';
+import { PageBlogDetailComponent } from './components/page-blog-detail/page-blog-detail.component';
+import { PageBlogGridComponent } from './components/page-blog-grid/page-blog-grid.component';
 
 @NgModule({
-	declarations: [ AppComponent, IndexBlogComponent, FooterComponent, SwitcherComponent, HeaderComponent ],
+	declarations: [
+		AppComponent,
+		IndexBlogComponent,
+		FooterComponent,
+		SwitcherComponent,
+		PageBlogDetailComponent,
+		PageBlogGridComponent,
+		HeaderComponent
+	],
 	imports: [
 		BrowserModule,
 		BrowserAnimationsModule,
